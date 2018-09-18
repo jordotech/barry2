@@ -1,0 +1,10 @@
+# Ignore configuration files that may contain sensitive information.
+sites/*/settings*.php
+
+# Ignore paths that contain user-generated content.
+cache
+sites/*/files
+sites/*/private
+sites/all/modules/ckeditor/ckeditor/.htaccess
+sites/all/themes/healthtrust/vids/
+cache/*
